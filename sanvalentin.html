@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz San Valentín!</title>
+    <style>
+        body {
+            background-color: pink; /* Cambia el color de fondo a rosa */
+            text-align: center; /* Centra todo el contenido de texto */
+        }
+
+        h1 {
+            font-size: 36px; /* Ajusta el tamaño de la fuente del encabezado */
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz San Valentín!</h1>
+    <p>¡Hola amor!</p>
+    <p>¿Quieres ser mi San Valentín?</p>
+
+    <!-- Agrega el gif aquí -->
+    <img src="https://media.tenor.com/uG0AZOy1b24AAAAM/nutria-otter.gif" alt="Gif de San Valentín" width="300">
+
+    <!-- Mueve los botones después del gif -->
+    <br>
+    <button onclick="aceptar()">Sí</button>
+    <button onclick="rechazar()">No</button>
+
+    <script>
+        function aceptar() {
+            alert("¡Eres lo mejor que me ha pasado! ¡Feliz San Valentín!");
+            window.location.href = "Eleccion.html"; // Redirige a la página de elección
+        }
+
+        function rechazar() {
+            alert("Está bien, lo entiendo. ¡Feliz día de San Valentín de todos modos!");
+        }
+    </script>
+</body>
+</html>
